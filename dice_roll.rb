@@ -8,6 +8,7 @@
 #end
 
 def roll (dice = 1,2,3,4,5,6)
-  puts dice.sam
+  puts dice.sample
+  return dice.sample
 
 end
