@@ -7,7 +7,7 @@
  # return dice
 #end
 
-def roll (dice = 1,2,3,4,5,6)
+def roll (dice = array[1,2,3,4,5,6])
   puts dice.sample
   return dice.sample
 
